@@ -1,0 +1,208 @@
+body {
+  font-size: 1.4rem;
+}
+
+.startoasia .head,
+.startoasia .foot {
+  background-color: #141420;
+  color: white;
+}
+
+.startoasia .head {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2.4rem;
+}
+
+.startoasia .head .logo {
+  width: 9vw;
+}
+
+.startoasia .banner img {
+  width: 100%;
+}
+
+.startoasia .main {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.startoasia .main .title {
+  background-color: #5a5ea8;
+  color: white;
+  padding: 1.2rem 4.8rem;
+  border-radius: 3.2rem;
+  margin-bottom: 8rem;
+}
+
+.startoasia .main .branch {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 12rem;
+  box-sizing: border-box;
+  padding: 4rem 8rem;
+}
+
+.startoasia .main .branch.branch-sh {
+  background-color: #f3f3f3;
+}
+
+.startoasia .main .branch.branch-sh .info {
+  flex-direction: row-reverse;
+}
+
+.startoasia .main .branch .info,
+.startoasia .main .branch .map {
+  max-width: 102.4rem;
+  margin: 0 auto;
+}
+
+.startoasia .main .branch .info {
+  display: flex;
+}
+
+.startoasia .main .branch .info .content {
+  flex: 8;
+  border-top: 0.75px solid #333333;
+  border-bottom: 0.75px solid #333333;
+  padding: 2.4rem 0;
+}
+
+.startoasia .main .branch .info .content .name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #81c5d0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.startoasia .main .branch .info .content .name img {
+  width: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.startoasia .main .branch .info .content .translation {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.startoasia .main .branch .info .content .details {
+  display: flex;
+  margin: 0 0 0.5rem;
+}
+
+.startoasia .main .branch .info .content .details dt {
+  min-width: 30%;
+}
+
+.startoasia .main .branch .info .content .details dd {
+  flex-grow: 1;
+}
+
+.startoasia .main .branch .info .space {
+  flex: 1;
+}
+
+.startoasia .main .branch .info .img {
+  flex: 7;
+}
+
+.startoasia .main .branch .map {
+  margin-top: 40px;
+}
+
+.startoasia .main .branch .info .img img,
+.startoasia .main .branch .map img {
+  width: 100%;
+}
+
+.startoasia .foot {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .startoasia .head {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.8rem;
+  }
+
+  .startoasia .head .logo {
+    width: 10rem;
+  }
+
+  .startoasia .banner {
+    height: 160px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .startoasia .banner img {
+    width: auto;
+    height: 100%;
+  }
+
+  .startoasia .main {
+    padding: 3rem 0;
+  }
+
+  .startoasia .main .title {
+    background-color: #5a5ea8;
+    color: white;
+    padding: 0.8rem 3.6rem;
+    border-radius: 2.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .startoasia .main .branch {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    padding: 2rem;
+  }
+
+  .startoasia .main .branch .info {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.4rem;
+  }
+
+  .startoasia .main .branch .info .content .name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #81c5d0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+  }
+
+  .startoasia .main .branch .info .content .name img {
+    width: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .startoasia .main .branch .info .content .translation {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .startoasia .main .branch.branch-sh .info {
+    flex-direction: column-reverse;
+  }
+}
